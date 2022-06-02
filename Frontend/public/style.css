@@ -1,0 +1,184 @@
+.names_section {
+	list-style: none;
+	/*убираем маркеры списка*/
+	margin: 0;
+	/*убираем отступы*/
+	padding-left: 0;
+	/*убираем отступы*/
+	margin-top: 5px;
+	/*делаем отступ сверху*/
+	background: #FF4444;
+	/*добавляем фон всему меню (заменив этот параметр, вы поменяете цвет всего меню)*/
+	height: 50px;
+	/*задаем высоту*/
+	text-align: justify;
+}
+
+.names_section a {
+	text-decoration: none;
+	/*убираем подчеркивание текста ссылок*/
+	background: #FF4444;
+	/*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+	color: #fff;
+	/*меняем цвет ссылок*/
+	padding: 0px 15px;
+	/*добавляем отступ*/
+	font-family: arial;
+	/*меняем шрифт*/
+	line-height: 50px;
+	/*ровняем меню по вертикали*/
+	display: block;
+	border-right: 1px solid #F36262;
+	/*добавляем бордюр справа*/
+
+}
+
+
+.header_names {
+	display: flex;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+header {
+	background-color: #f44;
+	flex: 0 0 auto;
+	align-items: center;
+}
+
+header .title {
+	color: #F0F0F0;
+	padding: 25px 10px 10px 25px;
+	text-decoration: none;
+	font-family: Arial;
+}
+header .title:hover {
+	cursor: pointer;
+}
+
+header ul {
+	padding: 4px;
+}
+
+.header_section{
+	text-decoration: none;
+	color: white;
+}
+
+.header_section li {
+	display: inline;
+	/* Отображать как строчный элемент */
+	margin-right: 5px;
+	/* Отступ слева */
+	padding: 10px 25px 10px 25px;
+	text-decoration: none;
+	font-family: Arial;
+	background: #FF4444;
+}
+
+main {
+	/* 1 flex-grow, 0 flex-shrink, auto flex-basis */
+	flex: 1 0 auto;
+}
+
+footer {
+	/* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+	height: 40px;
+	background-color: #FF4444;
+	text-align: center;
+	padding-top: 10px;
+	color: #fff;
+	font-family: arial;
+	/*меняем шрифт*/
+	border-right: 1px solid #F36262;
+	/*добавляем бордюр справа*/
+	flex: 0 0 auto;
+}
+
+.account-item {
+
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 10px 25px 10px 25px;
+	text-decoration: none;
+	color: black;
+	background-color: #F0F0F0;
+	border-radius: 30px;
+
+}
+
+.account-item img {
+	height: auto;
+	width: auto;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.account-item .account-image {
+
+	display: flex;
+	align-items: center;
+
+}
+
+.account-info {
+	height: auto;
+	display: inline-block;
+
+	font-family: Arial;
+	text-align: left;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+
+.account-info .account-name {
+	vertical-align: middle;
+}
+
+.category {
+	cursor:pointer
+}
+
+
+.tag-item {
+	display: inline-block;
+	margin: 2px;
+	padding: 3px 5px;
+	text-decoration: none;
+	color: white;
+	background: #FF4444;
+	border-radius: 30px;
+
+}
+
+.tag-item:hover {
+	background: #D43737;
+	/*добавляем эффект при наведении*/
+}
+
+.header_names:hover {
+	background: #e8c5c5;
+}
+
+.person-title {
+	font-family: Arial;
+	text-align: left;
+}
+
+.image {
+	padding: 5px;
+}
+
+.text {
+	padding: 5px;
+}
